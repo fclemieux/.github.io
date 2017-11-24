@@ -63,11 +63,19 @@
 }
 
 .main {
+  grid-area: 3 / 1 / 10 / 9;
+  background-image: url("http://pedagogie-inclusive.ca/Images/bookbg.jpg");
+  background-size: 50%;
+  z-index: 0;
+}
+
+.main {
   grid-area: 3 / 2 / 10 / 8;
 }
 
 .engagement {
   grid-area: 3 / 1 / 5 / 3;
+  z-index: 4;
 }
 
 .engagement img {
@@ -77,11 +85,12 @@
   border: green solid 3px;
   border-radius: 15px;
   float: right;
+  background-color: white;
 }
 
  .representation {
   grid-area: 5 / 1 / 7 / 3;
-
+  z-index: 4;
 }
 
 .representation img {
@@ -91,11 +100,12 @@
   border: #6829AC solid 3px;
   border-radius: 15px;
   float: right;
+  background-color: white;
 }
 
  .expression {
   grid-area: 7 / 1 / 9 / 3;
-
+  z-index: 4;
 }
 
 .expression img {
@@ -105,6 +115,7 @@
   border: #20A3B2 solid 3px;
   border-radius: 15px;
   float: right;
+  background-color: white;
 }
 
 .mainvademecum {
@@ -116,6 +127,7 @@
   padding: 100px 10px 10px 10px;
   margin: 10px 40px 0 15px;
   background-color: rgba(255, 255, 255, 0.8);
+  z-index: 4;
 }
 
 .content {
