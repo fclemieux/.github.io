@@ -69,10 +69,6 @@
   z-index: 0;
 }
 
-.main {
-  grid-area: 3 / 2 / 10 / 8;
-}
-
 .engagement {
   grid-area: 3 / 1 / 5 / 3;
   z-index: 4;
