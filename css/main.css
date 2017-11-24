@@ -91,6 +91,7 @@
   border-radius: 15px;
   float: right;
   background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
  .representation {
@@ -106,6 +107,7 @@
   border-radius: 15px;
   float: right;
   background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
  .expression {
@@ -121,6 +123,7 @@
   border-radius: 15px;
   float: right;
   background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .mainvademecum {
