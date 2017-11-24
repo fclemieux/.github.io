@@ -25,7 +25,7 @@
   background-image: url("http://pedagogie-inclusive.ca/Images/header.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 550px;
+  background-size: 580px;
   min-height: 150px;
   grid-area: header;
 }
