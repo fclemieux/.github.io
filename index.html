@@ -1,23 +1,26 @@
----
-layout: default
----
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylePI.css">
+    <title>Vade-Mecum Pédagogie Inclusive</title>
+  </head>
+  <body class="page">
+    <div class="header">
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a class="active" href="Pedagogie-inclusive.html">La Pédagogie inclusive</a></li>
+        <li><a href="Vade-Mecum.html">Vade-Mecum</a></li>
+        <li><a href="Articles.html">Articles</a></li>
+        <li style="float: right;"><a href="Liens-utiles.html">Liens utiles</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="content">
+        <p>La pédagogie inclusive est une pratique pédagogique <b>proactive</b> qui vise à favoriser la réussite de tous les étudiants en tenant compte, dès la conception de cours, de la très grande diversité de facteurs pouvant affecter les processus d’apprentissage.</p>
+      </div>
+    </div>
+    <div class="footer">
+    </div>
+  </body
+</html>
