@@ -108,13 +108,13 @@
 }
 
 .mainvademecum {
-  grid-area: 3 / 3 / 9 / 8;
+  grid-area: 3 / 3 / 9 / 9;
   border: black 2px solid;
   border-radius: 15px;
   text-align: center;
   font-family: calibri;
   padding: 100px 10px 10px 10px;
-  margin: 10px 0 0 15px;
+  margin: 10px 20px 0 15px;
 }
 
 .content {
