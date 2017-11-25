@@ -17,8 +17,8 @@
                        "51 52 53 54 55 56 57 58"
                        "61 62 63 64 65 66 67 68"
                        "footer footer footer footer footer footer footer footer";
-  grid-template-rows: 120px 50px 2fr 2fr 2fr 2fr 2fr 2fr 0.5fr;
-  grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr 1fr 100px;
+  grid-template-rows: 120px 50px 2fr 2fr 2fr 2fr 2fr 2fr 50px;
+  grid-template-columns: 80px 1fr 1fr 1fr 1fr 1fr 1fr 80px;
   margin: 0;
 }
 .header {
@@ -77,7 +77,7 @@
   text-align: justify;
   font-size: 1.40rem;
   z-index: 4;
-  padding: 0 15px;
+  padding: 0 40px;
   margin: 30px 0 0 0;
 }
 
