@@ -142,13 +142,15 @@
 
 .engagement-vademecum {
   grid-area: 3 / 4 / 9 / 8;
-  border: green 3px solid;
+  border: green 5px solid;
   border-radius: 15px;
   font-family: calibri;
-  padding: 30px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   margin: 10px 40px 0 15px;
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 4;
+  max-height: 820px;
+  text-overflow: clip;
 }
 
 iframe {
@@ -167,13 +169,60 @@ iframe {
 }
 
 button.accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: rgb(250, 250, 250);
     cursor: pointer;
-    padding: 18px;
+    padding: 10px;
+    margin: 10px 10px 0 0;
     width: 100%;
     text-align: left;
-    border: none;
+    border: rgb(0, 0, 0) 3px solid;
+    border-radius: 15px;
     outline: none;
     transition: 0.4s;
+    line-height: 0%;
+}
+
+button.accordion h1 {
+    line-height: 0 55px;
+    font-size: 20px;
+}
+
+.panel h2 {
+    line-height: 0px;
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+.panel p {
+    padding: 0 10px 0 30px;
+    color: dimgrey;
+}
+
+button.accordion.active, button.accordion:hover {
+    border: solid green 3px;
+}
+
+div.panel {
+    padding: 0 10px;
+    margin: 0 0 10px 25px;
+    overflow: hidden;
+    display: none;
+    border-left: black solid 3px;
+    border-radius: 20px;
+}
+
+button.accordion.active {
+    max-height none;
+}
+
+button.accordion.active h1{
+    font-size: 32px;
+}
+
+div.panel.show {
+    display: block !important;
+}
+
+span {
+    display: ìnline;
 }
