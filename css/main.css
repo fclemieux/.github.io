@@ -71,7 +71,8 @@
 
 .mainvideo {
   width: 100%;
-  font-size: 1.40rem;
+  font-size: 1.2rem;
+  col-width: 30%;
 }
 
 .accueilmain {
