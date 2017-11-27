@@ -69,12 +69,17 @@
   z-index: 0;
 }
 
+.videomain {
+  width: 100%;
+  font-size: 1.40rem;
+}
+
 .accueilmain {
   grid-area: 3 / 2 / 9 / 8;
   border: black solid 3px;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.9);
-  text-align: justify;
+  text-align: center;
   font-size: 1.40rem;
   z-index: 4;
   padding: 0 40px;
