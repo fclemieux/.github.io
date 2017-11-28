@@ -108,7 +108,7 @@
 }
 
 .accueilmain .block input[type='radio']:checked ~ .info{
-  height: 47%;
+  height: 45%;
   transition: .3s ease-in;
 }
 
