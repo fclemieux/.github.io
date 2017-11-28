@@ -84,7 +84,7 @@
   text-align: center;
   font-size: 1.40rem;
   z-index: 4;
-  margin: 30px 50px;
+  margin: 25px 50px 10px 50px;
   padding-top: 20px; 
 }
 
@@ -105,7 +105,7 @@
 }
 
 .accueilmain button.accordion {
-    padding: 10px;
+    padding: 5px 10px;
     margin: 5px 0;
     text-align: left;
     border-top: black 3px solid;
