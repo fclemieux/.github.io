@@ -178,7 +178,7 @@ button.accordion {
     background-color: white;
     cursor: pointer;
     padding: 10px;
-    margin: 10px 0 0 0;
+    margin: 30px 0 0 0;
     width: 100%;
     text-align: left;
     border-top: black 5px solid;
@@ -192,7 +192,7 @@ button.accordion {
 
 button.accordion h1 {
     line-height: 0 55px;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 
 .block h2 {
