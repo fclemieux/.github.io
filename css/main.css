@@ -56,7 +56,7 @@
   color: white;
   text-decoration: none;
   padding: 15px;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .nav li a:hover {
@@ -77,7 +77,7 @@
 }
 
 .accueilmain {
-  grid-area: 3 / 2 / 9 / 8;
+  grid-area: 3 / 2 / 10 / 8;
   border: black solid 3px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -85,41 +85,41 @@
   font-size: 1.40rem;
   z-index: 4;
   margin: 25px 50px 10px 50px;
-  padding-top: 20px; 
+  overflow: hidden;
 }
 
-.accueilmain  button.accordion.active, .accueilmain button.accordion:hover {
-    background-color: rgba(0, 160, 255, 0.1);
-    border-top: black 3px solid;
-    border-bottom: black 3px solid;
-    box-shadow: 0px 0px 44px 1px rgba(0, 160, 255, 0.1);
-}
-
-.accueilmain div.panel {
-    padding: 0;
-    margin: 0 0 0 25px;
-    overflow: hidden;
-    display: none;
-    border-left: none;
-    border-radius: 0;
-}
-
-.accueilmain button.accordion {
-    padding: 5px 10px;
-    margin: 5px 0;
+.accueilmain .block {
     text-align: left;
-    border-top: black 3px solid;
-    border-bottom: black 3px solid;
     border-left: none;
     border-right: none;
     outline: none;
     transition: 0.4s;
-    line-height: 0%;
+    line-height: 0;
 }
 
-.accueilmain .panel p {
-    padding: 0 10px 0 10px;
-    color: black;
+.accueilmain .block h2 {
+    line-height: 2;
+    font-size: 1.3rem;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    background: white;
+    margin: 10px 0;
+    padding-left: 30px;    
+}
+
+.accueilmain .block input[type='radio']:checked ~ .info{
+  height: 47%;
+  transition: .3s ease-in;
+}
+
+
+.accueilmain .info p {
+    font-size: 1.25rem;
+    text-align: justify;
+    font-family: "roboto condensed";
+    font-weight: 500;
+    padding: 0 30px;
+    margin: 0 0 10px 0;    
 }
 
 .engagement {
@@ -171,7 +171,7 @@
 }
 
 .mainvademecum {
-  grid-area: 3 / 4 / 9 / 8;
+  grid-area: 3 / 4 / 10 / 8;
   border: black 3px solid;
   border-radius: 15px;
   font-family: calibri;
@@ -182,8 +182,8 @@
 }
 
 .engagement-vademecum {
-  grid-area: 3 / 4 / 9 / 8;
-  border: green 5px solid;
+  grid-area: 3 / 4 / 10 / 8;
+  border: green 4px solid;
   border-radius: 15px;
   font-family: calibri;
   padding: 10px 0 10px 0;
@@ -191,11 +191,13 @@
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 4;
   max-height: 820px;
-  text-overflow: clip;
+  overflow: hidden;
 }
 
 iframe {
- z-index: 6;
+  min-height: 100%;
+  min-width: 100%;
+  border: black 1px solid;
 }
 
 .footer {
@@ -213,7 +215,7 @@ button.accordion {
     background-color: white;
     cursor: pointer;
     padding: 10px;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     width: 100%;
     text-align: left;
     border-top: black 3px solid;
@@ -233,7 +235,7 @@ button.accordion h1 {
 
 .block h2 {
     line-height: 2;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     font-size: 1rem;
     border-top: solid black 2px;
     border-bottom: solid black 2px;
@@ -247,8 +249,8 @@ button.accordion h1 {
 }
 
 button.accordion.active, button.accordion:hover {
-    border-top: green 5px solid;
-    border-bottom: green 5px solid;
+    border-top: green 3px solid;
+    border-bottom: green 3px solid;
     background-color: #FFF;
     box-shadow: 0px 0px 44px 1px rgba(0, 255, 0, 0.2);
 }
