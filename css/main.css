@@ -18,7 +18,7 @@
                        "61 62 63 64 65 66 67 68"
                        "footer footer footer footer footer footer footer footer";
   grid-template-rows: 120px 50px 2fr 2fr 2fr 2fr 2fr 2fr 0.5fr;
-  grid-template-columns: 80px 1fr 1fr 1fr 1fr 1fr 1fr 80px;
+  grid-template-columns: 40px 1fr 1fr 1fr 1fr 1fr 1fr 0.3fr;
   margin: 0;
 }
 .header {
