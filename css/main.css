@@ -192,7 +192,8 @@ button.accordion {
 
 button.accordion h1 {
     line-height: 0 55px;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    padding: 0 0 0 20px;
 }
 
 .block h2 {
@@ -229,7 +230,7 @@ button.accordion.active {
 }
 
 button.accordion.active h1{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 div.panel.show {
