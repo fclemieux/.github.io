@@ -214,7 +214,7 @@ button.accordion h1 {
 button.accordion.active, button.accordion:hover {
     border-top: green 5px solid;
     border-bottom: green 5px solid;
-    background-color: #AEFFAA;
+    background-color: #CEFFCC;
 }
 
 div.panel {
