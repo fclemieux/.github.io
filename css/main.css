@@ -119,7 +119,8 @@
     font-family: "roboto condensed";
     font-weight: 500;
     padding: 0 30px;
-    margin: 0 0 10px 0;    
+    margin: 0 0 10px 0;
+    vertical-align: top;
 }
 
 .engagement {
