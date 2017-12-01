@@ -60,11 +60,20 @@
  
 <!-- /.tabmenu  -->
  <div class="tab">
-  <button class="tablinks" onclick="opentab(event, 'engagement')" id="defaultOpen">Offrir plusieurs moyens <h3 style="color: green">d'engagement</h3></button>
-  <button class="tablinks" onclick="opentab(event, 'representation')">Offrir plusieurs moyens de <h3 style="color: #BC0081">représentation</h3></button>
-  <button class="tablinks" onclick="opentab(event, 'action')">Offrir plusieurs moyens <h3 style="color: #1D55BA">d'action et d'expression</h3></button>
+  <button class="tablinks" onclick="opentab(event, 'engagement')" id="defaultOpen" button.active="box-shadow: inset 0 0 10px 2px green;">
+      Offrir plusieurs moyens <h3 style="color: green">d'engagement</h3>
+      <img src="img/engagement.png" alt="Le pourquoi de l'apprentissage.">
+  </button>
+  <button class="tablinks" onclick="opentab(event, 'representation')" style="border-bottom: none; border-top: none;">
+      Offrir plusieurs moyens de <h3 style="color: #BC0081">représentation</h3>
+      <img src="img/representation.png" alt="Le quoi de l'apprentissage.">
+  </button>  
+  <button class="tablinks" onclick="opentab(event, 'action')">
+      Offrir plusieurs moyens <h3 style="color: #1D55BA">d'expression</h3>
+      <img src="img/action.png" alt="Le comment de l'apprentissage.">
+  </button>
 </div>
-<!-- /.container (engagement) -->
+<!-- (engagement) MAIN -->
 <div id="engagement" class="tabcontent">
     <div id="accordion-engagement" role="tablist">
           <div class="card">
@@ -73,7 +82,7 @@
             </div>
             <div id="engagement-collapse1" class="collapse hide" role="tabpanel" aria-labelledby="engagement1">
               <div class="card-block">
-               
+<!-- (engagement) 1.1 -->               
                Test1
                
               </div>
@@ -85,7 +94,7 @@
               </div>
               <div id="engagement-collapse2" class="collapse hide" role="tabpanel" aria-labelledby="engagement2">
                 <div class="card-block">
-                   
+<!-- (engagement) 1.2 -->                   
                 Test2
                       
                 </div>
@@ -97,7 +106,7 @@
             </div>
             <div id="engagement-collapse3" class="collapse hide" role="tabpanel" aria-labelledby="engagement3">
               <div class="card-block">
-                  
+<!-- (engagement) 1.3 -->                  
                   Test3
                   
               </div>
