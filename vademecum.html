@@ -60,44 +60,46 @@
  
 <!-- /.tabmenu  -->
  <div class="tab">
-  <button class="tablinks" onclick="opentab(event, 'engagement')" id="defaultOpen">Offrir plusieurs moyens d'engagement</button>
-  <button class="tablinks" onclick="opentab(event, 'representation')">Offrir plusieurs moyens de représentation</button>
-  <button class="tablinks" onclick="opentab(event, 'action')">Offrir plusieurs moyens d'action et d'expression</button>
+  <button class="tablinks" onclick="opentab(event, 'engagement')" id="defaultOpen">Offrir plusieurs moyens <h3 style="color: green">d'engagement</h3></button>
+  <button class="tablinks" onclick="opentab(event, 'representation')">Offrir plusieurs moyens de <h3 style="color: #BC0081">représentation</h3></button>
+  <button class="tablinks" onclick="opentab(event, 'action')">Offrir plusieurs moyens <h3 style="color: #1D55BA">d'action et d'expression</h3></button>
 </div>
 <!-- /.container (engagement) -->
 <div id="engagement" class="tabcontent">
-  <div id="accordion" role="tablist" aria-multiselectable="true">
+    <div id="accordion-engagement" role="tablist">
           <div class="card">
-            <div class="card-header" role="tab" id="headingOne">
-              <h4 class="mb-0"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">1. Diversifier les moyens pour <b style="color: green;">éveiller l'intérêt.</b></a></h4>
+            <div class="card-header" role="tab" id="engagement1">
+              <h4 class="mb-0"><a data-toggle="collapse" data-parent="#accordion-engagement" href="#engagement-collapse1" aria-expanded="false" aria-controls="engagement-collapse1">1. Diversifier les moyens pour <b style="color: green;">éveiller l'intérêt.</b></a></h4>
             </div>
-            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+            <div id="engagement-collapse1" class="collapse hide" role="tabpanel" aria-labelledby="engagement1">
               <div class="card-block">
                
-               
+               Test1
                
               </div>
             </div>
           </div>
           <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
-              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">2. Diversifier les moyens pour <b style="color: green;">soutenir l'effort et la persévérance.</b></a></h4>
+            <div class="card-header" role="tab" id="engagement2">
+              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-engagement" href="#engagement-collapse2" aria-expanded="false" aria-controls="engagement-collapse2">2. Diversifier les moyens pour <b style="color: green;">soutenir l'effort et la persévérance.</b></a></h4>
               </div>
-              <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div id="engagement-collapse2" class="collapse hide" role="tabpanel" aria-labelledby="engagement2">
                 <div class="card-block">
                    
-
+                Test2
                       
                 </div>
               </div>
           </div>
           <div class="card">
-            <div class="card-header" role="tab" id="headingThree">
-              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">3. Utiliser diverses stratégies pour <b style="color: green;">favoriser l'autorégulation.</b></a></h4>
+            <div class="card-header" role="tab" id="engagement3">
+              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-engagement" href="#engagement-collapse3" aria-expanded="false" aria-controls="engagement-collapse3">3. Utiliser diverses stratégies pour <b style="color: green;">favoriser l'autorégulation.</b></a></h4>
             </div>
-            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="engagement-collapse3" class="collapse hide" role="tabpanel" aria-labelledby="engagement3">
               <div class="card-block">
-                  Anim 
+                  
+                  Test3
+                  
               </div>
             </div>
           </div>
@@ -105,12 +107,12 @@
 </div>
 <!-- /.container (representation) -->
 <div id="representation" class="tabcontent">
-        <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div id="accordion-representation" role="tablist" aria-multiselectable="false">
           <div class="card">
-            <div class="card-header" role="tab" id="headingOne">
-              <h4 class="mb-0"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">1.  Offrir <b style="color: #BC0081;">diverses possibilités</b> sur le plan de la <b style="color: #BC0081;">perception.</b></a></h4>
+            <div class="card-header" role="tab" id="representation1">
+              <h4 class="mb-0"><a data-toggle="collapse" data-parent="#accordion-representation" href="#representation-collapse1" aria-expanded="false" aria-controls="representation-collapse1">1.  Offrir <b style="color: #BC0081;">diverses possibilités</b> sur le plan de la <b style="color: #BC0081;">perception.</b></a></h4>
             </div>
-            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+            <div id="representation-collapse1" class="collapse hide" role="tabpanel" aria-labelledby="representation1">
               <div class="card-block">
                
                
@@ -119,10 +121,10 @@
             </div>
           </div>
           <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
-              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">2. Offrir <b style="color: #BC0081;">diverses possibilités</b> sur les plans de la <b style="color: #BC0081;">langue</b> et des <b style="color: #BC0081;">symboles.</b></a></h4>
+            <div class="card-header" role="tab" id="representation2">
+              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-representation" href="#representation-collapse2" aria-expanded="false" aria-controls="representation-collapse2">2. Offrir <b style="color: #BC0081;">diverses possibilités</b> sur les plans de la <b style="color: #BC0081;">langue</b> et des <b style="color: #BC0081;">symboles.</b></a></h4>
               </div>
-              <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div id="representation-collapse2" class="collapse hide" role="tabpanel" aria-labelledby="representation2">
                 <div class="card-block">
                    
 
@@ -131,10 +133,10 @@
               </div>
           </div>
           <div class="card">
-            <div class="card-header" role="tab" id="headingThree">
-              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">3. Offrir <b style="color: #BC0081;">diverses possibilités</b> sur le plan de la <b style="color: #BC0081;">compréhension</b></a></h4>
+            <div class="card-header" role="tab" id="representation3">
+              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-representation" href="#representation-collapse3" aria-expanded="false" aria-controls="representation-collapse3">3. Offrir <b style="color: #BC0081;">diverses possibilités</b> sur le plan de la <b style="color: #BC0081;">compréhension</b></a></h4>
             </div>
-            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="representation-collapse3" class="collapse hide" role="tabpanel" aria-labelledby="representation3">
               <div class="card-block">
                   Anim 
               </div>
@@ -144,12 +146,12 @@
 </div>
 <!-- /.container (action) -->
 <div id="action" class="tabcontent">
-        <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div id="accordion-action" role="tablist" aria-multiselectable="false">
           <div class="card">
-            <div class="card-header" role="tab" id="headingOne">
-              <h4 class="mb-0"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">1. Offrir <b style="color: #1D55BA;">diverses possibilités</b> sur le plan de l’<b style="color: #1D55BA;">action physique.</b></a></h4>
+            <div class="card-header" role="tab" id="action1">
+              <h4 class="mb-0"><a data-toggle="collapse" data-parent="#accordion-action" href="#action-collapse1" aria-expanded="false" aria-controls="action-collapse1">1. Offrir <b style="color: #1D55BA;">diverses possibilités</b> sur le plan de l’<b style="color: #1D55BA;">action physique.</b></a></h4>
             </div>
-            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+            <div id="action-collapse1" class="collapse hide" role="tabpanel" aria-labelledby="action1">
               <div class="card-block">
                
                
@@ -158,10 +160,10 @@
             </div>
           </div>
           <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
-              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">2.  Offrir <b style="color: #1D55BA;">diverses possibilités</b> sur les plans de <b style="color: #1D55BA;">l’expression</b> et de la <b style="color: #1D55BA;">communication.</b></a></h4>
+            <div class="card-header" role="tab" id="action2">
+              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-action" href="#action-collapse2" aria-expanded="false" aria-controls="action-collapse2">2.  Offrir <b style="color: #1D55BA;">diverses possibilités</b> sur les plans de <b style="color: #1D55BA;">l’expression</b> et de la <b style="color: #1D55BA;">communication.</b></a></h4>
               </div>
-              <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div id="action-collapse2" class="collapse hide" role="tabpanel" aria-labelledby="action2">
                 <div class="card-block">
                    
 
@@ -170,10 +172,10 @@
               </div>
           </div>
           <div class="card">
-            <div class="card-header" role="tab" id="headingThree">
-              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">3. Offrir <b style="color: #1D55BA;">diverses possibilités</b> sur le plan des <b style="color: #1D55BA;">fonctions exécutives.</b></a></h4>
+            <div class="card-header" role="tab" id="action3">
+              <h4 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-action" href="#action-collapse3" aria-expanded="false" aria-controls="action-collapse3">3. Offrir <b style="color: #1D55BA;">diverses possibilités</b> sur le plan des <b style="color: #1D55BA;">fonctions exécutives.</b></a></h4>
             </div>
-            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="action-collapse3" class="collapse hide" role="tabpanel" aria-labelledby="action3">
               <div class="card-block">
                   Anim 
               </div>
