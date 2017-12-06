@@ -60,7 +60,8 @@
  
 <!-- /.tabmenu  -->
  <div class="tab">
-  <button class="tablinks " onclick="opentab(event, 'engagement')" id="defaultOpen">
+  <button class="tablinks " onclick="opentab(event, 'vademecumdefault')" id="defaultOpen" style="display: none;">
+  <button class="tablinks " onclick="opentab(event, 'engagement')">
       Offrir plusieurs moyens <h3 style="color: green">d'engagement</h3>
       <img src="img/engagement.png" alt="Le pourquoi de l'apprentissage.">
   </button>
@@ -72,6 +73,18 @@
       Offrir plusieurs moyens <h3 style="color: #1D55BA">d'expression</h3>
       <img src="img/action.png" alt="Le comment de l'apprentissage.">
   </button>
+</div>
+<!-- vademecum defaultopen -->
+<div id="vademecumdefault" class="tabcontent bg-faded" style="padding: 5%; text-align: center;">
+    <h3 style="font-family: oxygen; font-weight: bold;">Les trois grand principes de la<br />Conception Universelle de l'Apprentissage</h3>
+    <br /> 
+    <h4 style="font-family: oxygen; style="color: black;"> <b style="color: green;">Engagement</b> - <b style="color: #BC0081;">Représentation</b> - <b style="color: #1D55BA;">Expression</b></h4>
+    <br /> 
+    <p>Chacun de ces principes comporte des lignes directrices, qui  eux comporte des « points de contrôle » précisant des stratégies à adopter. Les lignes directrices et points
+    de contrôle de la CUA ne sont pas des solutions, mais plutôt des stratégies pouvant aider à surmonter les obstacles inhérents à la plupart des programmes actuels. 
+    Elles permettent l’intégration d’options et de la souplesse nécessaire pour maximiser les possibilités d’apprentissage pour tous les apprenants.</p>
+    <br />
+    <h4 style="font-family: oxygen; font-weight: bold;">Sélectionnez un des trois principes à gauche pour en savoir davantage</h4>    
 </div>
 <!-- engagement-main -->
 <div id="engagement" class="tabcontent">
@@ -86,7 +99,7 @@
 <!-- engagement-1. -->
                             
                <div id="accordion-engagement1" role="tablist">
-                  <div class="card">
+                  <div class="subcard">
                       <div class="subcard-header" role="tab" id="engagement11">
                           <h6 class="mb-0"><a data-toggle="collapse" data-parent="#accordion-engagement1" href="#engagement-collapse11" aria-expanded="false" aria-controls="engagement-collapse11">1.1 Favoriser l'autonomie et les choix individuels chez les étudiants.</a></h6>
                       </div>
@@ -97,7 +110,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="card">
+                  <div class="subcard">
                       <div class="subcard-header" role="tab" id="engagement12">
                           <h6 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-engagement1" href="#engagement-collapse12" aria-expanded="false" aria-controls="engagement-collapse12">1.2 Optimiser la pertinence, la valeur perçue et l'authenticité des activités pédagogiques.</a></h6>
                       </div>
@@ -108,7 +121,7 @@
                       </div>
                       </div>
                   </div>
-                  <div class="card">
+                  <div class="subcard">
                       <div class="subcard-header" role="tab" id="engagement13">
                           <h6 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-engagement1" href="#engagement-collapse13" aria-expanded="false" aria-controls="engagement-collapse13">1.3 Minimiser les distractions et les dangers potentiels.</b></a></h6>
                       </div>
@@ -136,7 +149,7 @@
 <!-- engagement-2. -->
                    
                <div id="accordion-engagement2" role="tablist">
-                  <div class="card">
+                  <div class="subcard">
                       <div class="subcard-header" role="tab" id="engagement21">
                           <h6 class="mb-0"><a data-toggle="collapse" data-parent="#accordion-engagement2" href="#engagement-collapse21" aria-expanded="false" aria-controls="engagement-collapse21">2.1 Souligner l’importance des buts et des objectifs.</a></h6>
                       </div>
@@ -147,7 +160,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="card">
+                  <div class="subcard">
                       <div class="subcard-header" role="tab" id="engagement22">
                           <h6 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-engagement2" href="#engagement-collapse22" aria-expanded="false" aria-controls="engagement-collapse22">2.2 Varier les exigences et les ressources pour rendre les défis plus stimulants.</a></h6>
                       </div>
@@ -158,7 +171,7 @@
                       </div>
                       </div>
                   </div>
-                  <div class="card">
+                  <div class="subcard">
                       <div class="subcard-header" role="tab" id="engagement23">
                           <h6 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-engagement2" href="#engagement-collapse23" aria-expanded="false" aria-controls="engagement-collapse23">2.3 Favoriser la collaboration et la communauté.</b></a></h6>
                       </div>
@@ -169,7 +182,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="card">
+                  <div class="subcard">
                       <div class="subcard-header" role="tab" id="engagement24">
                           <h6 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-engagement2" href="#engagement-collapse24" aria-expanded="false" aria-controls="engagement-collapse24">2.4 Augmenter les sources de rétroactions pour optimiser la compréhension.</b></a></h6>
                       </div>
@@ -197,7 +210,7 @@
 <!-- engagement-3. -->
                  
                   <div id="accordion-engagement3" role="tablist">
-                  <div class="card">
+                  <div class="subcard">
                       <div class="subcard-header" role="tab" id="engagement31">
                           <h6 class="mb-0"><a data-toggle="collapse" data-parent="#accordion-engagement3" href="#engagement-collapse31" aria-expanded="false" aria-controls="engagement-collapse31">3.1 Promouvoir les attentes et les idées qui favorisent la motivation.</a></h6>
                       </div>
@@ -208,7 +221,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="card">
+                  <div class="subcard">
                       <div class="subcard-header" role="tab" id="engagement32">
                           <h6 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-engagement3" href="#engagement-collapse32" aria-expanded="false" aria-controls="engagement-collapse32">3.2 Développer les stratégies d’autorégulation et la faculté d’adaptation.</a></h6>
                       </div>
@@ -219,7 +232,7 @@
                       </div>
                       </div>
                   </div>
-                  <div class="card">
+                  <div class="subcard">
                       <div class="subcard-header" role="tab" id="engagement33">
                           <h6 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion-engagement3" href="#engagement-collapse33" aria-expanded="false" aria-controls="engagement-collapse33">3.3 Développer la capacité d’auto-évaluation et de réflexion.</b></a></h6>
                       </div>
