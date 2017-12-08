@@ -98,34 +98,25 @@ hr.divider {
         background: transparent;
 }
 
-#engagement .card-header:hover {
-  box-shadow: inset 0 0 10px 2px green;
-}
-
 #engagement .card-header {
-  box-shadow: inset 0 0 5px 1px green;
   background: green;
 }
 
-#engagement .card-header a {
+#representation .card-header {
+  background: #BC0081;
+}
+
+#action .card-header {
+  background: #1D55BA;
+}
+
+.card-header a {
   color: white;
-}
-
-#representation .card-header:hover {
-  box-shadow: inset 0 0 10px 2px #BC0081;
-}
-
-#action .card-header:hover {
-  box-shadow: inset 0 0 10px 2px #1D55BA;
 }
 
 .card-header a {
     text-decoration: none;
     padding: 15px 0 15px 0;
-}
-
-.card-header:hover {
- 
 }
 
 .card-block-accueil {
@@ -219,8 +210,14 @@ div.tab button {
 }
 
 /* Change background color of buttons on hover */
-div.tab button:hover {
+
+.tab button:hover {
     box-shadow: 0 0 10px 5px green, inset 0 0 10px 1px green;
+    border: black 2px solid;
+}
+
+.tabengagement button:hover {
+    box-shadow: 0 0 10px 5px blue, inset 0 0 10px 1px blue;
     border: black 2px solid;
 }
 
@@ -261,5 +258,5 @@ div.tab button.active {
 .principes p {
     background: rgba(255, 255, 255, 0.9);
     margin: 0;
-    padding: 30px;
+    padding: 20px 30px;
 }
