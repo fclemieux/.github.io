@@ -41,6 +41,8 @@ h1 {
 
 .bgnav {
   background-color: #333;
+  border-bottom: solid black 1px;
+  border-top: solid black 1px;
 }
 
 .bgnav li:hover {
@@ -95,7 +97,7 @@ hr.divider {
 .card-header {
     border-top: black solid 1px;
     border-bottom: black solid 1px;
-        background: transparent;
+    background: #2EACBA;
 }
 
 #engagement .card-header {
@@ -111,12 +113,9 @@ hr.divider {
 }
 
 .card-header a {
-  color: white;
-}
-
-.card-header a {
     text-decoration: none;
     padding: 15px 0 15px 0;
+    color: white;
 }
 
 .card-block-accueil {
@@ -124,6 +123,10 @@ hr.divider {
   font-size: 0.90rem;
   text-align: justify;
   line-height: 1.35;
+}
+
+.card-block-accueil p {
+  margin: 0 0 10px 0;
 }
 
 .card-block {
@@ -237,6 +240,12 @@ div.tab button.active {
     border-radius: 5px;
     border: black solid 2px;
 
+}
+
+#accordion-index {
+    border: black solid 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px;
 }
 
 #accordion-engagement {
